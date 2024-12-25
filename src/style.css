@@ -1,0 +1,13 @@
+/* FONTS */
+/* Yomogi (headings) Amiri (body) */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Yomogi&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(160deg, #F2FCF4 -9.5%, #CCE0D0 106.18%);
+  @apply font-amiri text-base leading-8 text-primary-800 selection:bg-primary-800/20 min-h-screen pb-40;
+}
